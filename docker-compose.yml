@@ -1,0 +1,46 @@
+x-lab-service: &lab-service
+  image: x509-monitor-tls-lab:local
+  restart: unless-stopped
+  networks: [tls-lab]
+  read_only: true
+  security_opt: [no-new-privileges:true]
+  cap_drop: [ALL]
+  tmpfs: [/tmp]
+
+services:
+  valid:
+    <<: *lab-service
+    build: ./lab
+    environment: {SERVICE_NAME: valid}
+    ports: ["127.0.0.1:8443:443"]
+  expired:
+    <<: *lab-service
+    environment: {SERVICE_NAME: expired}
+    ports: ["127.0.0.1:8444:443"]
+  hostname-mismatch:
+    <<: *lab-service
+    environment: {SERVICE_NAME: hostname-mismatch}
+    ports: ["127.0.0.1:8445:443"]
+  self-signed:
+    <<: *lab-service
+    environment: {SERVICE_NAME: self-signed}
+    ports: ["127.0.0.1:8446:443"]
+  shared-cert-a:
+    <<: *lab-service
+    environment: {SERVICE_NAME: shared-cert-a}
+    ports: ["127.0.0.1:8447:443"]
+  shared-cert-b:
+    <<: *lab-service
+    environment: {SERVICE_NAME: shared-cert-b}
+    ports: ["127.0.0.1:8448:443"]
+  shared-spki-a:
+    <<: *lab-service
+    environment: {SERVICE_NAME: shared-spki-a}
+    ports: ["127.0.0.1:8449:443"]
+  shared-spki-b:
+    <<: *lab-service
+    environment: {SERVICE_NAME: shared-spki-b}
+    ports: ["127.0.0.1:8450:443"]
+
+networks:
+  tls-lab: {}

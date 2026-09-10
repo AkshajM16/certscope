@@ -1,0 +1,21 @@
+version: 1
+authorization_acknowledged: true
+allow_public_targets: false
+ca_file: lab/certs/ca/ca.pem
+timeout_seconds: 2.0
+concurrency: 5
+expiry_warning_days: 30
+weak_key_rules:
+  RSA: 2048
+  DSA: 2048
+  EC: 224
+weak_signature_hashes: [md5, sha1]
+targets:
+  - {name: valid, host: 127.0.0.1, port: 8443, server_name: valid.lab.test}
+  - {name: expired, host: 127.0.0.1, port: 8444, server_name: expired.lab.test}
+  - {name: hostname-mismatch, host: 127.0.0.1, port: 8445, server_name: mismatch.lab.test}
+  - {name: self-signed, host: 127.0.0.1, port: 8446, server_name: selfsigned.lab.test}
+  - {name: shared-cert-a, host: 127.0.0.1, port: 8447, server_name: shared.lab.test}
+  - {name: shared-cert-b, host: 127.0.0.1, port: 8448, server_name: shared.lab.test}
+  - {name: shared-spki-a, host: 127.0.0.1, port: 8449, server_name: spki-a.lab.test}
+  - {name: shared-spki-b, host: 127.0.0.1, port: 8450, server_name: spki-b.lab.test}

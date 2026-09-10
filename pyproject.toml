@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools==75.3.2", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "x509-exposure-monitor"
+version = "1.0.0"
+description = "Allowlist-only X.509 asset and certificate exposure monitor"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Information Technology",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Security",
+]
+dependencies = [
+  "cryptography==44.0.3",
+  "PyYAML==6.0.3",
+  "tabulate==0.9.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "build==1.2.2.post1",
+  "matplotlib==3.9.4; python_version < '3.14'",
+  "matplotlib==3.11.1; python_version >= '3.14'",
+  "psutil==6.1.1; python_version < '3.14'",
+  "psutil==7.2.2; python_version >= '3.14'",
+  "pytest==8.3.5",
+  "pytest-asyncio==0.25.3",
+  "pytest-cov==6.0.0",
+]
+
+[project.scripts]
+x509-monitor = "x509_monitor.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+x509_monitor = ["sql/*.sql"]
+
+[tool.pytest.ini_options]
+addopts = "-ra --strict-markers"
+testpaths = ["tests"]
+markers = ["integration: requires the Docker Compose TLS lab"]
+asyncio_default_fixture_loop_scope = "function"

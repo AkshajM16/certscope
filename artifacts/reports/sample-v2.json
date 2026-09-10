@@ -1,0 +1,344 @@
+{
+  "completed_at": "2026-09-09T18:16:58.400608+00:00",
+  "configured_concurrency": 5,
+  "mode": "v2",
+  "peak_concurrency": 5,
+  "results": [
+    {
+      "certificate": {
+        "certificate_fingerprint": "3F:18:8D:3E:3F:0E:9A:A5:B7:B3:7D:C1:57:B0:3F:E3:BC:C2:E9:6E:70:A0:1F:50:74:E1:E7:75:25:39:06:0C",
+        "issuer": "CN=X509 Monitor Lab CA,O=X509 Monitor Disposable Lab",
+        "not_after": "2027-09-09T18:16:15+00:00",
+        "not_before": "2026-09-08T18:16:15+00:00",
+        "pem": "-----BEGIN CERTIFICATE-----\nMIIDozCCAougAwIBAgIUfqq5wBQvuKYd6GM0E1Tiu7mEYM8wDQYJKoZIhvcNAQEL\nBQAwRDEkMCIGA1UECgwbWDUwOSBNb25pdG9yIERpc3Bvc2FibGUgTGFiMRwwGgYD\nVQQDDBNYNTA5IE1vbml0b3IgTGFiIENBMB4XDTI2MDkwODE4MTYxNVoXDTI3MDkw\nOTE4MTYxNVowPzEkMCIGA1UECgwbWDUwOSBNb25pdG9yIERpc3Bvc2FibGUgTGFi\nMRcwFQYDVQQDDA52YWxpZC5sYWIudGVzdDCCASIwDQYJKoZIhvcNAQEBBQADggEP\nADCCAQoCggEBAOYu24cH+l9P5Rbf/FQFOy6g/2JFPpt+30IVsuYCssSKN7h3f8fz\n97lg3OU8gRzEeAgsPbVoXUahaJ8nf0c/jEtYIaLz9LKIwdMPeT7mEXulBcpl89Nw\n+k/YTrWMCgECc9hhNAyN1O1UtF35jBOqtlu8PurnOV2nhtiiStM/Az950rTmQYrO\n3qUAKhV/8QmCKxZf6IAPFwUkHsUaPaRggVIVzXlZpwuzEGfNBawVhf6q81E/dFcE\nPPv5SdggSYUAEKm74cHcZ+sKAm4DsdFIqN/28Jbb6mhp6HJX4fT3jdp3N0FotQHt\nIIcxCdXOKOH7kleIMlUKDN1lK+TYfmAD0fsCAwEAAaOBkTCBjjAZBgNVHREEEjAQ\ngg52YWxpZC5sYWIudGVzdDAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIFIDAT\nBgNVHSUEDDAKBggrBgEFBQcDATAdBgNVHQ4EFgQUKIiOtbQKBILYEFfd8+Ijplvy\n+EkwHwYDVR0jBBgwFoAU4PQk7Jemp/vSlofBdGAYXqBhQ00wDQYJKoZIhvcNAQEL\nBQADggEBAFsVNy9X8p9LqjD1PSLTsdAISnLfuCoaPlAu+5o0SC4H+xX8R93+7umr\n9s5rZNlIg0gvj7hkKOLDwFr0haYvsFo4Hoa0mlIN2IF/ubdpVPXU212NkxT963OJ\nhQt+dS+I0tYBaafdXLELYlH1FGguIk4Jq3L0nsRQ9K90G1NsNO4k5MfYPLQOW4Mc\nz2c6TabucA8ijJ01wBdc6FvRBwKR7QfFdOpJr/ypsOm6w6kTK/AC4cyIqF1OCvMD\ndZPh2Zm5X1CjhEAhjbH+W4SFdKr3j2i0vOhT9SR1lIXrRI0oEh1aD7e5yFfXe0n5\nSqlyGkbrN+uGKTBXZ2O4RCZPndqaSng=\n-----END CERTIFICATE-----\n",
+        "public_key_algorithm": "RSA",
+        "public_key_size": 2048,
+        "sans": [
+          "valid.lab.test"
+        ],
+        "serial": "7EAAB9C0142FB8A61DE863341354E2BBB98460CF",
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "signature_hash": "sha256",
+        "spki_fingerprint": "74:1C:6B:87:A4:B7:07:11:EB:42:84:DE:97:3F:18:DE:E6:D2:03:25:9C:3B:15:F5:94:24:56:00:4B:CA:9E:38",
+        "subject": "CN=valid.lab.test,O=X509 Monitor Disposable Lab"
+      },
+      "chain_fingerprints": [
+        "3F:18:8D:3E:3F:0E:9A:A5:B7:B3:7D:C1:57:B0:3F:E3:BC:C2:E9:6E:70:A0:1F:50:74:E1:E7:75:25:39:06:0C",
+        "6A:EF:5C:9E:83:55:D3:40:C3:3C:DB:4F:35:AA:D5:F4:27:91:E2:F3:72:F1:29:F2:9B:65:17:4D:05:AD:DF:B9"
+      ],
+      "cipher": "TLS_AES_256_GCM_SHA384",
+      "collected_at": "2026-09-09T18:16:58.374118+00:00",
+      "error_class": null,
+      "error_message": null,
+      "findings": [],
+      "hostname_valid": true,
+      "latency_ms": 18.788707966450602,
+      "target": {
+        "host": "127.0.0.1",
+        "name": "valid",
+        "port": 8443,
+        "server_name": "valid.lab.test"
+      },
+      "tls_version": "TLSv1.3",
+      "trust_valid": true,
+      "verification_error": null
+    },
+    {
+      "certificate": {
+        "certificate_fingerprint": "54:9A:A7:6D:D4:D8:74:A6:CB:DA:33:9A:DD:53:98:0B:CB:E5:2F:B0:47:0B:3C:9B:70:5F:90:BD:25:F2:00:97",
+        "issuer": "CN=X509 Monitor Lab CA,O=X509 Monitor Disposable Lab",
+        "not_after": "2026-09-08T18:16:15+00:00",
+        "not_before": "2026-07-11T18:16:15+00:00",
+        "pem": "-----BEGIN CERTIFICATE-----\nMIIDpzCCAo+gAwIBAgIUQtZXfsifgEUg1dufPvDNON/rCsowDQYJKoZIhvcNAQEL\nBQAwRDEkMCIGA1UECgwbWDUwOSBNb25pdG9yIERpc3Bvc2FibGUgTGFiMRwwGgYD\nVQQDDBNYNTA5IE1vbml0b3IgTGFiIENBMB4XDTI2MDcxMTE4MTYxNVoXDTI2MDkw\nODE4MTYxNVowQTEkMCIGA1UECgwbWDUwOSBNb25pdG9yIERpc3Bvc2FibGUgTGFi\nMRkwFwYDVQQDDBBleHBpcmVkLmxhYi50ZXN0MIIBIjANBgkqhkiG9w0BAQEFAAOC\nAQ8AMIIBCgKCAQEApZeZ1BtNN2hjMvX/6+UKN5KfZHbcyGLF5fucwo0McoxGDIHZ\nIM7dCFkoBwlAiwc+pzMd1iztLwtBCm2c8BV4/tVyeyYawh2O+2GQjm06fbo7c5gI\noYZMb1FTzH4Xa0s3uVSobQwVf37WkeCrSaZwKh8XQgZAXoSDR6dh12Pjn6Qb869k\nCxAHKml3AggGhrX9CKqyI6ReSyBzyyI8C2a30XCQ/j2JkQTOLO318/7mKlO33GLV\n5H2q1twgZRZscNSsgit9UVLr9yFZ2aSUPMoM7g4iHC1tu5T33cIXav4CYRtfJBT0\n0ofAA50YffKTBYGjnVuTWny/zbLAF4uNZRXaVwIDAQABo4GTMIGQMBsGA1UdEQQU\nMBKCEGV4cGlyZWQubGFiLnRlc3QwDAYDVR0TAQH/BAIwADAOBgNVHQ8BAf8EBAMC\nBSAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwHQYDVR0OBBYEFAF9Ld6rHk2EfDE0f4Bt\n3ty9kiRKMB8GA1UdIwQYMBaAFOD0JOyXpqf70paHwXRgGF6gYUNNMA0GCSqGSIb3\nDQEBCwUAA4IBAQBWcC+gcOC2Y1LMXJxUpeT5r96nTprHXZBJBKPhUQHk+569EQ6H\nCYnSMckcwNmJYH7YW0mk4cLgwpJBJsmIlq1MOn603NMA4W6K1LeWzIKc0a+BVdqr\nSDk2YLkdkvI9qMA6PFpYctvtN8OiENNhQGHlIpwVSoh8wZsIdUfubINsDTBlUesh\n5yZ/0RnQimR7/QiLP34QiAMjSsq8iRgElUSHswNztXTSndgmJqaoQn+ifHBljXde\nW8TG8WstD99tLdltEqcFp7bjbg4SHc8qnUHGqLCXmyedov7kMAYmmxjykA8ENmPC\n1+lKsRMqEMBXFLu4UpHcoYPRaca+JAjFkwxl\n-----END CERTIFICATE-----\n",
+        "public_key_algorithm": "RSA",
+        "public_key_size": 2048,
+        "sans": [
+          "expired.lab.test"
+        ],
+        "serial": "42D6577EC89F804520D5DB9F3EF0CD38DFEB0ACA",
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "signature_hash": "sha256",
+        "spki_fingerprint": "36:9C:31:BD:3F:5B:27:AB:2A:3F:BF:0C:FB:89:13:29:1D:0B:5E:34:FE:49:77:16:BD:50:45:0C:F0:18:0A:AB",
+        "subject": "CN=expired.lab.test,O=X509 Monitor Disposable Lab"
+      },
+      "chain_fingerprints": [
+        "54:9A:A7:6D:D4:D8:74:A6:CB:DA:33:9A:DD:53:98:0B:CB:E5:2F:B0:47:0B:3C:9B:70:5F:90:BD:25:F2:00:97",
+        "6A:EF:5C:9E:83:55:D3:40:C3:3C:DB:4F:35:AA:D5:F4:27:91:E2:F3:72:F1:29:F2:9B:65:17:4D:05:AD:DF:B9"
+      ],
+      "cipher": "TLS_AES_256_GCM_SHA384",
+      "collected_at": "2026-09-09T18:16:58.374847+00:00",
+      "error_class": null,
+      "error_message": null,
+      "findings": [
+        {
+          "category": "expired",
+          "detail": "certificate expired 2026-09-08T18:16:15+00:00",
+          "severity": "critical"
+        },
+        {
+          "category": "untrusted",
+          "detail": "certificate_verification_error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1082)",
+          "severity": "high"
+        }
+      ],
+      "hostname_valid": true,
+      "latency_ms": 16.899208014365286,
+      "target": {
+        "host": "127.0.0.1",
+        "name": "expired",
+        "port": 8444,
+        "server_name": "expired.lab.test"
+      },
+      "tls_version": "TLSv1.3",
+      "trust_valid": false,
+      "verification_error": "certificate_verification_error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1082)"
+    },
+    {
+      "certificate": {
+        "certificate_fingerprint": "2F:BF:9F:77:4D:66:41:32:5E:A8:9F:E1:62:0B:75:45:DE:9F:BA:5D:CC:E4:18:2C:2D:88:8B:53:13:8A:3D:4B",
+        "issuer": "CN=X509 Monitor Lab CA,O=X509 Monitor Disposable Lab",
+        "not_after": "2027-09-09T18:16:15+00:00",
+        "not_before": "2026-09-08T18:16:15+00:00",
+        "pem": "-----BEGIN CERTIFICATE-----\nMIIDrTCCApWgAwIBAgIUXNUrfehEWtQEx/ViJNsN+BOysR0wDQYJKoZIhvcNAQEL\nBQAwRDEkMCIGA1UECgwbWDUwOSBNb25pdG9yIERpc3Bvc2FibGUgTGFiMRwwGgYD\nVQQDDBNYNTA5IE1vbml0b3IgTGFiIENBMB4XDTI2MDkwODE4MTYxNVoXDTI3MDkw\nOTE4MTYxNVowRDEkMCIGA1UECgwbWDUwOSBNb25pdG9yIERpc3Bvc2FibGUgTGFi\nMRwwGgYDVQQDDBN1bmV4cGVjdGVkLmxhYi50ZXN0MIIBIjANBgkqhkiG9w0BAQEF\nAAOCAQ8AMIIBCgKCAQEA6jUJ4BbP/xjo+/y2mP0y/CbY6R5xXjvpp+41daKZaa+c\nUEgjFuD5VkdO2l2AI3xV1ZmTRcdVFEfrOWSoAaRGHDsKLdq+ShLKhxO4/ktUfk/z\nkNI2rMKIHP4/i/KazBmuZipt5lsdcmrZqE/r7EXDTKLLHyY2pNRBZaxt0VdN1xpK\ncJWVDYr9B+J2oJH+au5TVo6mWYcrMb3edJH2m2u1INN+byXswYZ4SH4dEg20Ap5p\nj/tCH4HB6EAmjUbpWwQxMziHrEKe2L47nWvHtZXkek6Evd8OyWoILFjEgb5c/dLr\n69IXidMWjq2esLEdaexW7DsyF1tXu7ni/YMCfZTtywIDAQABo4GWMIGTMB4GA1Ud\nEQQXMBWCE3VuZXhwZWN0ZWQubGFiLnRlc3QwDAYDVR0TAQH/BAIwADAOBgNVHQ8B\nAf8EBAMCBSAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwHQYDVR0OBBYEFOukVU1/Y5Wy\nbDCa7p3WDWvhNBiUMB8GA1UdIwQYMBaAFOD0JOyXpqf70paHwXRgGF6gYUNNMA0G\nCSqGSIb3DQEBCwUAA4IBAQCgmFvoJJP9QuO7ud5RtIwzlH0zy/1vfTJ8xtTdUjFi\ne8EVJRCdZpq0YvTDhnQ342mJEAA24dPJRF38faYalrv/q8U5SsA9nu9U2nXBAehK\nSXaR6WDb+fvxQHqnSModEFZyTYrNd5OGK6ssD/x7yr/BqcZutoM1bGpaoNzYoC5L\nhf1XSdL0qbtgwfPTwlIQ836ei/7/ujmB6/gR9dODCTfiIg4CTAhyVSqN4BfySeoY\nNxgATUl2gA1A6SA7K6F6MASYZ4Hh3j5Gi/TZgtQ+xlO+TFpvk+d2fdN2xSU6tNlx\nQ4yEU1iDoQJ3ITLMqeAUuPG8BYxBZdNSxpYlT2O8telc\n-----END CERTIFICATE-----\n",
+        "public_key_algorithm": "RSA",
+        "public_key_size": 2048,
+        "sans": [
+          "unexpected.lab.test"
+        ],
+        "serial": "5CD52B7DE8445AD404C7F56224DB0DF813B2B11D",
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "signature_hash": "sha256",
+        "spki_fingerprint": "52:1B:AF:F1:AC:5D:35:F2:62:AB:E4:8F:EE:6E:C0:70:1E:46:E2:16:CC:70:94:2A:34:C1:B0:4F:10:94:00:08",
+        "subject": "CN=unexpected.lab.test,O=X509 Monitor Disposable Lab"
+      },
+      "chain_fingerprints": [
+        "2F:BF:9F:77:4D:66:41:32:5E:A8:9F:E1:62:0B:75:45:DE:9F:BA:5D:CC:E4:18:2C:2D:88:8B:53:13:8A:3D:4B",
+        "6A:EF:5C:9E:83:55:D3:40:C3:3C:DB:4F:35:AA:D5:F4:27:91:E2:F3:72:F1:29:F2:9B:65:17:4D:05:AD:DF:B9"
+      ],
+      "cipher": "TLS_AES_256_GCM_SHA384",
+      "collected_at": "2026-09-09T18:16:58.375014+00:00",
+      "error_class": null,
+      "error_message": null,
+      "findings": [
+        {
+          "category": "hostname_mismatch",
+          "detail": "SANs ['unexpected.lab.test'] do not match mismatch.lab.test",
+          "severity": "high"
+        }
+      ],
+      "hostname_valid": false,
+      "latency_ms": 17.864457971882075,
+      "target": {
+        "host": "127.0.0.1",
+        "name": "hostname-mismatch",
+        "port": 8445,
+        "server_name": "mismatch.lab.test"
+      },
+      "tls_version": "TLSv1.3",
+      "trust_valid": true,
+      "verification_error": null
+    },
+    {
+      "certificate": {
+        "certificate_fingerprint": "6E:C9:EC:09:BC:8B:89:1D:BF:87:83:5C:DB:C9:55:47:2D:BF:05:3D:94:27:82:C9:5F:09:C6:1F:B4:59:14:E6",
+        "issuer": "CN=selfsigned.lab.test,O=X509 Monitor Disposable Lab",
+        "not_after": "2027-09-09T18:16:15+00:00",
+        "not_before": "2026-09-08T18:16:15+00:00",
+        "pem": "-----BEGIN CERTIFICATE-----\nMIIDrTCCApWgAwIBAgIUah2kzdIvqfpxrLJGvGeVtPkq7u8wDQYJKoZIhvcNAQEL\nBQAwRDEkMCIGA1UECgwbWDUwOSBNb25pdG9yIERpc3Bvc2FibGUgTGFiMRwwGgYD\nVQQDDBNzZWxmc2lnbmVkLmxhYi50ZXN0MB4XDTI2MDkwODE4MTYxNVoXDTI3MDkw\nOTE4MTYxNVowRDEkMCIGA1UECgwbWDUwOSBNb25pdG9yIERpc3Bvc2FibGUgTGFi\nMRwwGgYDVQQDDBNzZWxmc2lnbmVkLmxhYi50ZXN0MIIBIjANBgkqhkiG9w0BAQEF\nAAOCAQ8AMIIBCgKCAQEApQhbllcN3LY8f3qeE8f0jsYHnQxs8deAYI4ll1zCk4Oj\nUAmgcGnSYbEjZZreAvVavx9VSkphEjg7WFF89Dyl20ekjhg4igU6i1r5aAggovV7\n1hi9q/NNkSsXmePJqpHV8tqkRoB4eoNQDxvk9zmEVVUp6xCmr0WSQcjQIbBJrDxr\neE3Lmt/0uL8BKhbWPk2Fjp9NNizkuc59Y5BkAA5eyqVXmIpZWEvq22A/g8Ouvhk2\nMcMwsPX6uRobhR6urTbdDA6sky8QOkmjpro1h7AejjBvs0reRA2XNC+H7RerKznB\nh/pi9dicy1Il5IPOQkLRhPp3XXTB1Ue7e/bXHRrCdQIDAQABo4GWMIGTMB4GA1Ud\nEQQXMBWCE3NlbGZzaWduZWQubGFiLnRlc3QwDAYDVR0TAQH/BAIwADAOBgNVHQ8B\nAf8EBAMCBSAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwHQYDVR0OBBYEFGWQiqTQgZWg\nLAmG5UnZHqjOOzA5MB8GA1UdIwQYMBaAFGWQiqTQgZWgLAmG5UnZHqjOOzA5MA0G\nCSqGSIb3DQEBCwUAA4IBAQALEOS5GuxsWbYJi24zW3Avtotho4/gO4MeUEB7ZqRr\nZi9doJFfXD8QlR668EJQ2b0kEDjl22dgRd2ZCwQIiA3jm1uBFwJkMoCejrfNyFFH\n8PctxEKmaywUoMCT58BVE2L/df1iCHISDrhH2qWhfzZ1pYXckcU6h+CXwUEN6tvX\nCkSnQTDVvBLLiuEhoke+l08AJspvbx0R5vO1oI3a/VKFnwIVtvh3MIWL9kQ1XSd8\nKropLxveiAWFAXahst9dC6CSkHTBiJ1zzhys+hzs63Q/Z/p2VUDQvo9jwkXGXD8l\nLD+kT8UBbjnFzWU5s2x0GrQnsQ0onKORr2/2bWR09wVs\n-----END CERTIFICATE-----\n",
+        "public_key_algorithm": "RSA",
+        "public_key_size": 2048,
+        "sans": [
+          "selfsigned.lab.test"
+        ],
+        "serial": "6A1DA4CDD22FA9FA71ACB246BC6795B4F92AEEEF",
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "signature_hash": "sha256",
+        "spki_fingerprint": "FA:CE:5B:0D:AB:96:DD:1F:12:D2:A3:64:43:A4:69:62:D7:7F:D2:2B:1B:14:F3:A6:3C:C1:7F:68:ED:2F:1C:16",
+        "subject": "CN=selfsigned.lab.test,O=X509 Monitor Disposable Lab"
+      },
+      "chain_fingerprints": [
+        "6E:C9:EC:09:BC:8B:89:1D:BF:87:83:5C:DB:C9:55:47:2D:BF:05:3D:94:27:82:C9:5F:09:C6:1F:B4:59:14:E6"
+      ],
+      "cipher": "TLS_AES_256_GCM_SHA384",
+      "collected_at": "2026-09-09T18:16:58.375165+00:00",
+      "error_class": null,
+      "error_message": null,
+      "findings": [
+        {
+          "category": "untrusted",
+          "detail": "certificate_verification_error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1082)",
+          "severity": "high"
+        }
+      ],
+      "hostname_valid": true,
+      "latency_ms": 16.936750034801662,
+      "target": {
+        "host": "127.0.0.1",
+        "name": "self-signed",
+        "port": 8446,
+        "server_name": "selfsigned.lab.test"
+      },
+      "tls_version": "TLSv1.3",
+      "trust_valid": false,
+      "verification_error": "certificate_verification_error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1082)"
+    },
+    {
+      "certificate": {
+        "certificate_fingerprint": "33:2D:0B:BB:3F:5B:C2:AE:FB:F3:91:5E:BB:9F:B0:95:4D:D0:E8:44:8B:88:F0:63:2D:26:37:4E:51:58:F7:89",
+        "issuer": "CN=X509 Monitor Lab CA,O=X509 Monitor Disposable Lab",
+        "not_after": "2027-09-09T18:16:15+00:00",
+        "not_before": "2026-09-08T18:16:15+00:00",
+        "pem": "-----BEGIN CERTIFICATE-----\nMIIDpTCCAo2gAwIBAgIUcNdHLTN5zmCdauckMwqX1bV+NN0wDQYJKoZIhvcNAQEL\nBQAwRDEkMCIGA1UECgwbWDUwOSBNb25pdG9yIERpc3Bvc2FibGUgTGFiMRwwGgYD\nVQQDDBNYNTA5IE1vbml0b3IgTGFiIENBMB4XDTI2MDkwODE4MTYxNVoXDTI3MDkw\nOTE4MTYxNVowQDEkMCIGA1UECgwbWDUwOSBNb25pdG9yIERpc3Bvc2FibGUgTGFi\nMRgwFgYDVQQDDA9zaGFyZWQubGFiLnRlc3QwggEiMA0GCSqGSIb3DQEBAQUAA4IB\nDwAwggEKAoIBAQC6mp7y5Bd561Zk3dGnEtOG4devPWMNQpvj67+9PlpSNzN7ZM0Y\n6I6SWnoDeca2TN80EIBn4vtwg+kuyDS5fJyarWKlzLPCjbgbIvRFcJ06hwcjltR8\nHzFUwRvqRjMbUYI+jTBcJwRF18yaGLnynoJt7jB6ojpnay8Z0yZ658IiR/U4P5Ac\ncGp7RgKxXArvL/ys45UzlmPBX07fGX5Veu7DPLtem4Mc7UmEZqsaVDz3mJt2Zyau\nj98z9LYX+ErDMVpMuqc7YncomN96yNdimYHiU04Li2hSV3e8Cmos8W5T0EMcSqm5\nb66L4rUekZsKMxH10Lm1WC0DpzVotbyA7GmVAgMBAAGjgZIwgY8wGgYDVR0RBBMw\nEYIPc2hhcmVkLmxhYi50ZXN0MAwGA1UdEwEB/wQCMAAwDgYDVR0PAQH/BAQDAgUg\nMBMGA1UdJQQMMAoGCCsGAQUFBwMBMB0GA1UdDgQWBBRZ4PTmyNUOHyermw79LTQs\n616wDjAfBgNVHSMEGDAWgBTg9CTsl6an+9KWh8F0YBheoGFDTTANBgkqhkiG9w0B\nAQsFAAOCAQEAUnr0k+CCqGWAoRpC9kBR6Tw8IcbkM7hqHUlAEAWoS94vz3qdSNT7\nldNf2tb1ABUJeirBKH0yp8jq3QfZwbnR/3KOIieQShcNeTbW5F5uI412gGuRHzLT\nWAhBD44clKH4J3+QhVPu8qW36ECN3pJ20qcPUpRacoUv2ad/MVgHsG32xuvlJhtC\nQVyYr0QMhORRlclVQ3kznCa8wN37T5JacbVTDdAUSgYRIDdjVR1jYTnjEomdfrxJ\nVCw89SISAhabSqLEFw4SngDU9ZZZ0J5yMHPGhA+0YY2JWrcxBxLiyRqM+MEtTDA8\n1K7biXlNFefsgETLZzkW2dsnyTKRjOtzMg==\n-----END CERTIFICATE-----\n",
+        "public_key_algorithm": "RSA",
+        "public_key_size": 2048,
+        "sans": [
+          "shared.lab.test"
+        ],
+        "serial": "70D7472D3379CE609D6AE724330A97D5B57E34DD",
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "signature_hash": "sha256",
+        "spki_fingerprint": "A7:71:25:0A:9E:C4:09:2B:BF:EE:96:1D:E6:72:F2:94:37:96:65:CF:09:46:18:B8:0B:0D:E4:50:07:F2:0A:A6",
+        "subject": "CN=shared.lab.test,O=X509 Monitor Disposable Lab"
+      },
+      "chain_fingerprints": [
+        "33:2D:0B:BB:3F:5B:C2:AE:FB:F3:91:5E:BB:9F:B0:95:4D:D0:E8:44:8B:88:F0:63:2D:26:37:4E:51:58:F7:89",
+        "6A:EF:5C:9E:83:55:D3:40:C3:3C:DB:4F:35:AA:D5:F4:27:91:E2:F3:72:F1:29:F2:9B:65:17:4D:05:AD:DF:B9"
+      ],
+      "cipher": "TLS_AES_256_GCM_SHA384",
+      "collected_at": "2026-09-09T18:16:58.375307+00:00",
+      "error_class": null,
+      "error_message": null,
+      "findings": [],
+      "hostname_valid": true,
+      "latency_ms": 18.182332976721227,
+      "target": {
+        "host": "127.0.0.1",
+        "name": "shared-cert-a",
+        "port": 8447,
+        "server_name": "shared.lab.test"
+      },
+      "tls_version": "TLSv1.3",
+      "trust_valid": true,
+      "verification_error": null
+    },
+    {
+      "certificate": {
+        "certificate_fingerprint": "33:2D:0B:BB:3F:5B:C2:AE:FB:F3:91:5E:BB:9F:B0:95:4D:D0:E8:44:8B:88:F0:63:2D:26:37:4E:51:58:F7:89",
+        "issuer": "CN=X509 Monitor Lab CA,O=X509 Monitor Disposable Lab",
+        "not_after": "2027-09-09T18:16:15+00:00",
+        "not_before": "2026-09-08T18:16:15+00:00",
+        "pem": "-----BEGIN CERTIFICATE-----\nMIIDpTCCAo2gAwIBAgIUcNdHLTN5zmCdauckMwqX1bV+NN0wDQYJKoZIhvcNAQEL\nBQAwRDEkMCIGA1UECgwbWDUwOSBNb25pdG9yIERpc3Bvc2FibGUgTGFiMRwwGgYD\nVQQDDBNYNTA5IE1vbml0b3IgTGFiIENBMB4XDTI2MDkwODE4MTYxNVoXDTI3MDkw\nOTE4MTYxNVowQDEkMCIGA1UECgwbWDUwOSBNb25pdG9yIERpc3Bvc2FibGUgTGFi\nMRgwFgYDVQQDDA9zaGFyZWQubGFiLnRlc3QwggEiMA0GCSqGSIb3DQEBAQUAA4IB\nDwAwggEKAoIBAQC6mp7y5Bd561Zk3dGnEtOG4devPWMNQpvj67+9PlpSNzN7ZM0Y\n6I6SWnoDeca2TN80EIBn4vtwg+kuyDS5fJyarWKlzLPCjbgbIvRFcJ06hwcjltR8\nHzFUwRvqRjMbUYI+jTBcJwRF18yaGLnynoJt7jB6ojpnay8Z0yZ658IiR/U4P5Ac\ncGp7RgKxXArvL/ys45UzlmPBX07fGX5Veu7DPLtem4Mc7UmEZqsaVDz3mJt2Zyau\nj98z9LYX+ErDMVpMuqc7YncomN96yNdimYHiU04Li2hSV3e8Cmos8W5T0EMcSqm5\nb66L4rUekZsKMxH10Lm1WC0DpzVotbyA7GmVAgMBAAGjgZIwgY8wGgYDVR0RBBMw\nEYIPc2hhcmVkLmxhYi50ZXN0MAwGA1UdEwEB/wQCMAAwDgYDVR0PAQH/BAQDAgUg\nMBMGA1UdJQQMMAoGCCsGAQUFBwMBMB0GA1UdDgQWBBRZ4PTmyNUOHyermw79LTQs\n616wDjAfBgNVHSMEGDAWgBTg9CTsl6an+9KWh8F0YBheoGFDTTANBgkqhkiG9w0B\nAQsFAAOCAQEAUnr0k+CCqGWAoRpC9kBR6Tw8IcbkM7hqHUlAEAWoS94vz3qdSNT7\nldNf2tb1ABUJeirBKH0yp8jq3QfZwbnR/3KOIieQShcNeTbW5F5uI412gGuRHzLT\nWAhBD44clKH4J3+QhVPu8qW36ECN3pJ20qcPUpRacoUv2ad/MVgHsG32xuvlJhtC\nQVyYr0QMhORRlclVQ3kznCa8wN37T5JacbVTDdAUSgYRIDdjVR1jYTnjEomdfrxJ\nVCw89SISAhabSqLEFw4SngDU9ZZZ0J5yMHPGhA+0YY2JWrcxBxLiyRqM+MEtTDA8\n1K7biXlNFefsgETLZzkW2dsnyTKRjOtzMg==\n-----END CERTIFICATE-----\n",
+        "public_key_algorithm": "RSA",
+        "public_key_size": 2048,
+        "sans": [
+          "shared.lab.test"
+        ],
+        "serial": "70D7472D3379CE609D6AE724330A97D5B57E34DD",
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "signature_hash": "sha256",
+        "spki_fingerprint": "A7:71:25:0A:9E:C4:09:2B:BF:EE:96:1D:E6:72:F2:94:37:96:65:CF:09:46:18:B8:0B:0D:E4:50:07:F2:0A:A6",
+        "subject": "CN=shared.lab.test,O=X509 Monitor Disposable Lab"
+      },
+      "chain_fingerprints": [
+        "33:2D:0B:BB:3F:5B:C2:AE:FB:F3:91:5E:BB:9F:B0:95:4D:D0:E8:44:8B:88:F0:63:2D:26:37:4E:51:58:F7:89",
+        "6A:EF:5C:9E:83:55:D3:40:C3:3C:DB:4F:35:AA:D5:F4:27:91:E2:F3:72:F1:29:F2:9B:65:17:4D:05:AD:DF:B9"
+      ],
+      "cipher": "TLS_AES_256_GCM_SHA384",
+      "collected_at": "2026-09-09T18:16:58.391788+00:00",
+      "error_class": null,
+      "error_message": null,
+      "findings": [],
+      "hostname_valid": true,
+      "latency_ms": 7.523457985371351,
+      "target": {
+        "host": "127.0.0.1",
+        "name": "shared-cert-b",
+        "port": 8448,
+        "server_name": "shared.lab.test"
+      },
+      "tls_version": "TLSv1.3",
+      "trust_valid": true,
+      "verification_error": null
+    },
+    {
+      "certificate": {
+        "certificate_fingerprint": "8E:37:8D:D0:1F:F8:5C:DF:35:72:82:4B:E8:7F:23:9F:54:BA:AE:C6:7D:75:28:A6:44:C1:7C:8D:A2:7F:90:0F",
+        "issuer": "CN=X509 Monitor Lab CA,O=X509 Monitor Disposable Lab",
+        "not_after": "2027-09-09T18:16:15+00:00",
+        "not_before": "2026-09-08T18:16:15+00:00",
+        "pem": "-----BEGIN CERTIFICATE-----\nMIIDpTCCAo2gAwIBAgIUDTF1aPJpRYY8bchLI3R8bv1vB1swDQYJKoZIhvcNAQEL\nBQAwRDEkMCIGA1UECgwbWDUwOSBNb25pdG9yIERpc3Bvc2FibGUgTGFiMRwwGgYD\nVQQDDBNYNTA5IE1vbml0b3IgTGFiIENBMB4XDTI2MDkwODE4MTYxNVoXDTI3MDkw\nOTE4MTYxNVowQDEkMCIGA1UECgwbWDUwOSBNb25pdG9yIERpc3Bvc2FibGUgTGFi\nMRgwFgYDVQQDDA9zcGtpLWEubGFiLnRlc3QwggEiMA0GCSqGSIb3DQEBAQUAA4IB\nDwAwggEKAoIBAQDiloCMeytrCQsZzT1xuX/GsWG6fZ/n91KL/YzxiY8o/nKgI7S5\nk3OilfnpEyHeo32906fPcy6KoiQEzhnCPVljNTK2zHUpdM20bZUHK7lbaid1j+He\nG+GfLD/LgTpQw0pxn+vH4ewGYEDGAX3D/fcQpVEqysJ5IDJomdbEHXeUVhLmu1TS\n5d/XXGgf5gXj6luB3lta7bJq2LjJd2iWsYZG9ZADAwLPXIik3DHwX8Vyt+GeKKyp\nQkldvBpjuyGQGUA/Z9uSqN1wYu9/FMfeRuD1snGqgoAFyOnPvv4SxHi1i75Vdn17\nnYXaZz/DKmIDUb4tgi+CmhpoGv8Ql7yZFX4VAgMBAAGjgZIwgY8wGgYDVR0RBBMw\nEYIPc3BraS1hLmxhYi50ZXN0MAwGA1UdEwEB/wQCMAAwDgYDVR0PAQH/BAQDAgUg\nMBMGA1UdJQQMMAoGCCsGAQUFBwMBMB0GA1UdDgQWBBRDwt+ZCHKEDrCG+UyaF5k2\nN2fKQTAfBgNVHSMEGDAWgBTg9CTsl6an+9KWh8F0YBheoGFDTTANBgkqhkiG9w0B\nAQsFAAOCAQEAK3Y7zuq+C17kRur59Y8aa1A3XLWGfCwERgk1PkXEe7qMNYYqNe0i\nxg4sXi7o1qQlimrBBTghvmT/Sp8gc49HY/SmM1XFhGt6GITzpzU2PABL+slbnbfg\ncRg9oKJ++lZLCDPHNeu2tjJL3fYO3PCsI2osbtRJyu7Q1xRgI9qhb+CFMHdgonHn\n4JgfN+xIbAyZrGYFjCJHR5tMqU+gVgqKj9/POJaZIGLfxsd1ece/Lmr5qyLMOFm4\nE6os7DiyfOI2V0wcy6iW6rQoTDDjcB4hEM09Ka68LI4gZPFtqnEvm7R9iJHNAe4+\niCCdJxqGHll672y/S+fHVBqXdzwqBOkxeQ==\n-----END CERTIFICATE-----\n",
+        "public_key_algorithm": "RSA",
+        "public_key_size": 2048,
+        "sans": [
+          "spki-a.lab.test"
+        ],
+        "serial": "D317568F26945863C6DC84B23747C6EFD6F075B",
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "signature_hash": "sha256",
+        "spki_fingerprint": "39:1D:1A:7D:B4:40:B5:64:B3:34:60:AB:D9:BF:C7:36:0B:91:10:2D:CF:14:14:16:BC:EE:78:31:44:D9:F0:DC",
+        "subject": "CN=spki-a.lab.test,O=X509 Monitor Disposable Lab"
+      },
+      "chain_fingerprints": [
+        "8E:37:8D:D0:1F:F8:5C:DF:35:72:82:4B:E8:7F:23:9F:54:BA:AE:C6:7D:75:28:A6:44:C1:7C:8D:A2:7F:90:0F",
+        "6A:EF:5C:9E:83:55:D3:40:C3:3C:DB:4F:35:AA:D5:F4:27:91:E2:F3:72:F1:29:F2:9B:65:17:4D:05:AD:DF:B9"
+      ],
+      "cipher": "TLS_AES_256_GCM_SHA384",
+      "collected_at": "2026-09-09T18:16:58.392172+00:00",
+      "error_class": null,
+      "error_message": null,
+      "findings": [],
+      "hostname_valid": true,
+      "latency_ms": 6.81475002784282,
+      "target": {
+        "host": "127.0.0.1",
+        "name": "shared-spki-a",
+        "port": 8449,
+        "server_name": "spki-a.lab.test"
+      },
+      "tls_version": "TLSv1.3",
+      "trust_valid": true,
+      "verification_error": null
+    },
+    {
+      "certificate": {
+        "certificate_fingerprint": "15:8D:DB:91:7F:57:D9:28:E0:37:5D:65:A9:17:CE:A0:FF:23:69:A2:DD:6A:44:06:25:40:DA:38:C3:2F:C5:70",
+        "issuer": "CN=X509 Monitor Lab CA,O=X509 Monitor Disposable Lab",
+        "not_after": "2027-09-09T18:16:15+00:00",
+        "not_before": "2026-09-08T18:16:15+00:00",
+        "pem": "-----BEGIN CERTIFICATE-----\nMIIDpTCCAo2gAwIBAgIUd4TPKMVz2e5DYRIVSvlAoEzsqdQwDQYJKoZIhvcNAQEL\nBQAwRDEkMCIGA1UECgwbWDUwOSBNb25pdG9yIERpc3Bvc2FibGUgTGFiMRwwGgYD\nVQQDDBNYNTA5IE1vbml0b3IgTGFiIENBMB4XDTI2MDkwODE4MTYxNVoXDTI3MDkw\nOTE4MTYxNVowQDEkMCIGA1UECgwbWDUwOSBNb25pdG9yIERpc3Bvc2FibGUgTGFi\nMRgwFgYDVQQDDA9zcGtpLWIubGFiLnRlc3QwggEiMA0GCSqGSIb3DQEBAQUAA4IB\nDwAwggEKAoIBAQDiloCMeytrCQsZzT1xuX/GsWG6fZ/n91KL/YzxiY8o/nKgI7S5\nk3OilfnpEyHeo32906fPcy6KoiQEzhnCPVljNTK2zHUpdM20bZUHK7lbaid1j+He\nG+GfLD/LgTpQw0pxn+vH4ewGYEDGAX3D/fcQpVEqysJ5IDJomdbEHXeUVhLmu1TS\n5d/XXGgf5gXj6luB3lta7bJq2LjJd2iWsYZG9ZADAwLPXIik3DHwX8Vyt+GeKKyp\nQkldvBpjuyGQGUA/Z9uSqN1wYu9/FMfeRuD1snGqgoAFyOnPvv4SxHi1i75Vdn17\nnYXaZz/DKmIDUb4tgi+CmhpoGv8Ql7yZFX4VAgMBAAGjgZIwgY8wGgYDVR0RBBMw\nEYIPc3BraS1iLmxhYi50ZXN0MAwGA1UdEwEB/wQCMAAwDgYDVR0PAQH/BAQDAgUg\nMBMGA1UdJQQMMAoGCCsGAQUFBwMBMB0GA1UdDgQWBBRDwt+ZCHKEDrCG+UyaF5k2\nN2fKQTAfBgNVHSMEGDAWgBTg9CTsl6an+9KWh8F0YBheoGFDTTANBgkqhkiG9w0B\nAQsFAAOCAQEARpDVYH1tJcTztjPMiPpGwaVxWT5arVZtD0RyI1dCrlOIRI9Jl4zK\n2lvo4hoDrg25zPN62ScSoP0WeEMBBIrfoSoQmafdZLakWmYrpbJ7y+E+3ig692Nl\nJcFrEYWn2S0Ix3cWt8vCrKHoVPQmWXqGitN5aaH+QfI75JAHJUcM98+6qzDA0Y3n\nvV/BV7rxYU6Gpg8M+YZhTU5MxLqSoHv3/ODQIFbcXKIkT0Ua1EsTlZktTIg6BLxF\nFPpVJHq+n1gHTIiu6Bie5SyAOyH32SVkejsRvu7d1egen2c/msfGkqm8W8LuXIEG\n/DZyrxERsEQztT9ATXxdFwbZ4bZulEMJNQ==\n-----END CERTIFICATE-----\n",
+        "public_key_algorithm": "RSA",
+        "public_key_size": 2048,
+        "sans": [
+          "spki-b.lab.test"
+        ],
+        "serial": "7784CF28C573D9EE436112154AF940A04CECA9D4",
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "signature_hash": "sha256",
+        "spki_fingerprint": "39:1D:1A:7D:B4:40:B5:64:B3:34:60:AB:D9:BF:C7:36:0B:91:10:2D:CF:14:14:16:BC:EE:78:31:44:D9:F0:DC",
+        "subject": "CN=spki-b.lab.test,O=X509 Monitor Disposable Lab"
+      },
+      "chain_fingerprints": [
+        "15:8D:DB:91:7F:57:D9:28:E0:37:5D:65:A9:17:CE:A0:FF:23:69:A2:DD:6A:44:06:25:40:DA:38:C3:2F:C5:70",
+        "6A:EF:5C:9E:83:55:D3:40:C3:3C:DB:4F:35:AA:D5:F4:27:91:E2:F3:72:F1:29:F2:9B:65:17:4D:05:AD:DF:B9"
+      ],
+      "cipher": "TLS_AES_256_GCM_SHA384",
+      "collected_at": "2026-09-09T18:16:58.392964+00:00",
+      "error_class": null,
+      "error_message": null,
+      "findings": [],
+      "hostname_valid": true,
+      "latency_ms": 7.58745800703764,
+      "target": {
+        "host": "127.0.0.1",
+        "name": "shared-spki-b",
+        "port": 8450,
+        "server_name": "spki-b.lab.test"
+      },
+      "tls_version": "TLSv1.3",
+      "trust_valid": true,
+      "verification_error": null
+    }
+  ],
+  "scan_id": 2,
+  "started_at": "2026-09-09T18:16:58.373923+00:00"
+}

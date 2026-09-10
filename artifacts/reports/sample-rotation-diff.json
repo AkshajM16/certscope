@@ -1,0 +1,21 @@
+{
+  "changes": [
+    {
+      "category": "impending_expiry",
+      "detail": "2026-09-08T18:16:15+00:00",
+      "target": "expired@127.0.0.1:8444"
+    },
+    {
+      "category": "certificate_rotation",
+      "detail": "leaf fingerprint changed",
+      "target": "valid@127.0.0.1:8443"
+    },
+    {
+      "category": "key_rotation",
+      "detail": "SPKI fingerprint changed",
+      "target": "valid@127.0.0.1:8443"
+    }
+  ],
+  "current_scan_id": 4,
+  "previous_scan_id": 2
+}

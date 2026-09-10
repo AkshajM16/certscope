@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements-dev.txt
+          python -m pip install -e .
+
+      - name: Generate and start disposable TLS lab
+        run: |
+          x509-monitor lab generate
+          x509-monitor lab start
+
+      - name: Run tests
+        run: pytest
+
+      - name: Build Python distributions
+        run: python -m build
+
+      - name: Smoke-test built wheel
+        run: |
+          python -m pip install --force-reinstall dist/*.whl
+          x509-monitor --config allowlist.yaml --db /tmp/x509-wheel-smoke.db init-db
+
+      - name: Stop project Compose stack
+        if: always()
+        run: docker compose down

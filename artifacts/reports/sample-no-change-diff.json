@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "category": "impending_expiry",
+      "detail": "2026-09-08T18:16:15+00:00",
+      "target": "expired@127.0.0.1:8444"
+    }
+  ],
+  "current_scan_id": 2,
+  "previous_scan_id": 1
+}
