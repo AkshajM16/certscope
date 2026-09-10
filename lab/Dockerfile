@@ -1,4 +1,4 @@
-FROM python:3.12.10-alpine3.21
+FROM python:3.14.1-alpine3.21
 RUN addgroup -S lab && adduser -S -G lab lab
 COPY server.py /app/server.py
 COPY certs /certs
